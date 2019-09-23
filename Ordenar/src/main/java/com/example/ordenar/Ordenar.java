@@ -11,9 +11,14 @@ public class Ordenar {
     public static void main( String[] args){
 
         ArrayList<Persona> p = new ArrayList<>();
-        p.add(new Profesor( nombre: "Andres", edad: 45,asignatura:"programacion"));
 
+        p.add(new Persona("Sergio", 19));
+        p.add(new Profesor("Andres",45,"IoT")); //lo podemos meter dentro de la lista de personas
+        p.add(new Alumno("David", 23, 23));
 
+        for(Persona x: p) {
+            x.mostrar();
+        }
 
 
     /*    //Generar numeros de forma aleatoria
