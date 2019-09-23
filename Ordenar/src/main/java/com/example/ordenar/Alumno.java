@@ -10,6 +10,6 @@ public class Alumno extends Persona {
 
     }
     public void mostrar(){
-        System.out.println("Me llamo " + nombre +" y he suspendido" + suspensos + " asignaturas");
+        System.out.println("Me llaman " + nombre +" y he suspendido" + suspensos + " asignaturas");
     }
 }
