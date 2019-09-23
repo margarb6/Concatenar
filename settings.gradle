@@ -1,0 +1,2 @@
+include ':app', ':Concatenar2', ':Ordenar', ':Persona', ':Profesor'
+rootProject.name='Concatenar'
